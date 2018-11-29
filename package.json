@@ -1,0 +1,26 @@
+{
+  "name": "starter-app",
+  "version": "1.0.0",
+  "description": "basic Sass, minification and concatenation functionality",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "author": "Paul Wright",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {}
+}
